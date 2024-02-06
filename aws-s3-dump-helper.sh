@@ -2,7 +2,7 @@
 
 if [ -z "$1" ]
 then
-  echo "Usage: ./$0 <aws-profile>"
+  echo "Usage: $0 <aws-profile>"
   echo "Available profiles:"
   grep '^\[\(profile \)\?' ~/.aws/config ~/.aws/credentials | tr -d '[]' | awk '{print $2}'
 

@@ -10,7 +10,7 @@ then
 fi
 
 profile="$1"
-destino_local="$(pwd)$profile/S3"
+destino_local="$(pwd)/$profile/S3"
 
 echo "Destination: $destino_local"
 echo "Profile: $profile"

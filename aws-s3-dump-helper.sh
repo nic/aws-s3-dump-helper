@@ -9,7 +9,7 @@ then
   exit 1
 fi
 
-destino_local="$(pwd)/$profile/S3"
+destino_local="$(pwd)$profile/S3"
 profile="$1"
 echo "Destination: $destino_local"
 echo "Profile: $profile"
